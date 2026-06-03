@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Enriching 3D Scene Representation via Interactive Robotic Exploration">
+  <meta name="description"
+    content="OnAGraph: Active Online Adaptation of Graph-Based Neural Dynamics using Few Exploratory Interactions">
   <meta name="keywords" content="robotics">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Interact2Learn</title>
+  <title>OnAGraph</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
@@ -48,8 +49,8 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Enriching 3D Scene Representation via Interactive Robotic
-              Exploration</h1>
+            <h1 class="title is-1 publication-title">OnAGraph: Active Online Adaptation of Graph-Based Neural Dynamics
+              using Few Exploratory Interactions</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 Anonymous Author(s)
@@ -145,16 +146,17 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             Effective robotic manipulation requires a robust and accurate understanding of the operating environment.
-            While current systems leverage multi-modal sensing to estimate environmental states, passive observation
+            While current systems can estimate environmental states using their sensor information, passive observation
             often yields incomplete representations due to occlusions, novel object dynamics, or sensor limitations. To
             address this, we draw inspiration from human cognitive development, where active physical interaction is
-            used to resolve ambiguity. In this work, we propose a novel framework that leverages online, exploratory
-            experience to dynamically refine a robot's state representation. By actively probing the environment, the
-            robot uncovers latent dynamics and physical properties that are unobservable through passive sensing alone.
-            We demonstrate how this interactively grounded representation is subsequently used to adapt the robot's
-            policy on the fly. We evaluate our method on single-arm pushing tasks involving articulated objects,
-            demonstrating a good improvement in success rate over passive-only baselines.
-          </div>
+            used to resolve the ambiguity. We propose OnAGraph, a novel framework that leverages online,
+            exploratory experience to dynamically refine a robot’s 3D scene representation during deployment. By
+            actively probing the environment, the robot uncovers latent dynamics and object properties that are
+            unobservable through passive sensing alone. We demonstrate how this interactively grounded representation is
+            subsequently used to adapt the robot’s policy to fulfill the given downstream task. We evaluate our method
+            on single-arm pushing tasks involving articulated objects,
+            demonstrating a 43% improvement in success rate
+            over passive-only baseline.</div>
         </div>
       </div>
       <!--/ Abstract. -->
